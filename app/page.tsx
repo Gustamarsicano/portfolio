@@ -190,6 +190,7 @@ export default function Home() {
           />
         </div>
 
+
         <div>
           <h3 className="font-semibold text-2xl">
             Conheça meu canal no youtube!
