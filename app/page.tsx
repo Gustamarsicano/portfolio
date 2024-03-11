@@ -140,18 +140,26 @@ export default function Home() {
               <h3 className="text-white font-semibold text-2xl">
                 Youtube: Piores efeitos de filmes
               </h3>
-              <video loop className="w-full" controls>
-                <source src="/piores-efeitos.mp4" />
-              </video>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/PRxny0psBGs?si=k6BbHVxLZSiqpI0u"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              />
             </div>
 
             <div>
               <h3 className="text-white font-semibold text-2xl">
                 Youtube: Series mais hypadas
               </h3>
-              <video loop className="w-full" controls>
-                <source src="/melhores-series.mp4" />
-              </video>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/NFVAREfJFsk?si=GDcGa51H3sURGnr4"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              />
             </div>
           </TabsContent>
 
@@ -173,9 +181,13 @@ export default function Home() {
 
       <section className="grid grid-cols-2 gap-x-10 max-w-[80%] m-auto py-[75px]">
         <div>
-          <video loop className="w-full" controls>
-            <source src="/introdução.mp4" />
-          </video>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/P7R2cUsB7ZQ?si=ye8rBJHV5BKv_kNk"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          />
         </div>
 
         <div>
@@ -193,7 +205,9 @@ export default function Home() {
             inscrição e participe da conversa! Você não vai se arrepender.
           </p>
 
-          <Button className="mt-4 bg-gradient-to-r from-[#FFD100] to-[#ED3C28] py-3 rounded-sm font-bold w-full">Acessar canal</Button>
+          <Button className="mt-4 bg-gradient-to-r from-[#FFD100] to-[#ED3C28] py-3 rounded-sm font-bold w-full">
+            Acessar canal
+          </Button>
         </div>
       </section>
     </main>
